@@ -3,3 +3,5 @@
 ![ punto2](punto2.png "Punto 2")
 ## Tercer punto
 ![ punto3](punto3.png "Punto 3")
+## Arreglo
+![ Arreglo](Arreglo.png "Arreglo")

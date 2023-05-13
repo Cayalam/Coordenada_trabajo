@@ -6,8 +6,9 @@ public class Test {
     {
         Coordenada C1= new Coordenada(5, 10);
         System.out.println(C1);
-        Coordenada C2 = new Coordenada(5, 10);
+        Coordenada C2 = new Coordenada(5, 20);
         System.out.println(C2);
+    System.out.println("---PrimerPunto----");
         if (C1.equals(C2)){
             System.out.println("Son iguales");
             }
@@ -15,8 +16,9 @@ public class Test {
             else{
             System.out.println("Son diferentes"); 
         }
-        System.out.println("\nDistancia entre coordenadas:");
-        System.out.println("distancia(c1, c2) = " + C1.distancia(C2));
+        System.out.println("---SegundoPunto--");
+        System.out.println("Distancia entre coordenadas:");
+        System.out.println("distancia(C1, C2) = " + C1.Distancia(C2));
     }
 
     

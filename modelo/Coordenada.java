@@ -36,7 +36,7 @@ public class Coordenada{
 
 
     }
-    public double distancia(Coordenada otraCoordenada) {
+    public double Distancia(Coordenada otraCoordenada) {
         double dx = this.x - otraCoordenada.x;
         double dy = this.y - otraCoordenada.y;
         return Math.sqrt(dx * dx + dy * dy);
